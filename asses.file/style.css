@@ -80,7 +80,29 @@
     top: 42% ;
     left: 4%;
 }  
+.b11{
+    background-color: rgb(96, 49, 27);
+    color: antiquewhite;
+    font-size:20px;
+    position:absolute;
+    top: 75% ;
+    left: 5%;
+    border-radius: 30px;
+    padding:15px 35px;
+}
 
+.b12{
+    
+    background-color:  antiquewhite;
+    color: rgb(7, 7, 7);
+    font-size:18px;
+    position:absolute;
+    top: 75% ;
+    left: 27%;
+    border-radius: 30px;
+    padding:15px 35px;
+    text-shadow: 90%;
+}
 
 
 
