@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -7,23 +10,47 @@
   height: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 .body{
-    background-color:antiquewhite;
+    background-image: url(https://media.istockphoto.com/id/1199467344/photo/cup-of-coffee-with-heart-shape-smoke-and-coffee-beans-on-burlap-sack-on-old-wooden-background.webp?s=1024x1024&w=is&k=20&c=vasYfK3z4wzjYaZvpnnk5CVcLUHL-0esbJtYSyy29Eo=);
 }
 
 .nav{
     text-align: right;
-    background-color:#4E342E;
-
+    text-decoration: none;
+    padding: 10px 10px;
 }
 .n1{
-    font-family: "Creepster", system-ui;
+    font-family: "Satisfy", cursive;
     font-size: 20px;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     color: aliceblue;
+    text-decoration: none;
+}
+.mi{ 
 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 1200px;
+    
+}
+
+.mi img{
+    
+    border-radius:30px;
+}
+.h3{
+    color: antiquewhite
+    
+}
+.head{
+    margin-top: 0%;
+    font-size:xx-large;
+    color: aliceblue;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+  font-style: normal
 }
 
 
