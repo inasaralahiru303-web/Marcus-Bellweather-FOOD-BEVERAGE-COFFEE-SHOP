@@ -1,0 +1,29 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.body{
+    background-color:antiquewhite;
+}
+
+.nav{
+    text-align: right;
+    background-color:#4E342E;
+
+}
+.n1{
+    font-family: "Creepster", system-ui;
+    font-size: 20px;
+    padding: 10px 10px 20px 10px;
+    color: aliceblue;
+
+}
+
+
