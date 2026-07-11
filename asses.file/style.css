@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 .clearfix:after {
   visibility: hidden;
@@ -28,29 +30,57 @@
     text-decoration: none;
 }
 .mi{ 
-
+    
     display: flex;
     justify-content: right;
     align-items: center;
     width: 1200px;
-    
+    position:relative;
+
 }
 
 .mi img{
     
     border-radius:30px;
-}
+} 
 .h3{
-    color: antiquewhite
-    
+     font-family: "Yuyu", sans-serif;
+    font-size: 30px;
+    color: rgb(160, 139, 112);
+    position: absolute;
+    top: 10%;
+    left: 4%;
 }
 .head{
-    margin-top: 0%;
+    align-items: last baseline;
     font-size:xx-large;
     color: aliceblue;
     font-family: "Creepster", system-ui;
     font-weight: 400;
-  font-style: normal
+    
+    position:absolute;
+    top: 1%;
+    left: 50px;;
+    
 }
+.h1{
+   
+    font-family: "Oswald", sans-serif;
+    position:absolute;
+    color: bisque; 
+    top: 20%;
+    left:4%;
+    padding: 50px;
+}
+.hp{
+    font-family: "Oleo Script", system-ui;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 42% ;
+    left: 4%;
+}  
+
+
 
 
